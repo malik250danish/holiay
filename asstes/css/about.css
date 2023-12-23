@@ -3,37 +3,38 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 body {
   background: linear-gradient(to right, #060d05, #150606, #000000) !important;
 }
+
 .about {
   font-size: 4.5rem !important;
   margin-top: 5rem !important;
-  background: -webkit-linear-gradient(
-    90deg,
-    rgb(46, 37, 37),
-    rgb(255, 255, 255)
-  );
+  background: -webkit-linear-gradient(90deg,
+      rgb(46, 37, 37),
+      rgb(255, 255, 255));
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
 }
+
 @media (max-width: 576px) {
   .about {
-    margin-top: 2rem !important ;
+    margin-top: 2rem !important;
     font-size: 2.5rem !important;
   }
-  
+
 }
 
 /* ===================  oor team section start  ============================*/
 
-.border {
+.borderA {
   display: grid;
   place-items: center;
   border: 5px solid !important;
 }
 
-.full-withradius {
+.full-withradiusA {
   position: relative;
   background: linear-gradient(to right, #070f06, #150606, #000000) !important;
 
@@ -56,14 +57,44 @@ body {
   }
 }
 
+.team-bg-one {
+  background-image: url("../img/MD.png") !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+  background-size: cover !important;
+  height: 400px !important;
+  width: 100% !important;
+}
+
+.team-bg-two {
+  background-image: url("../img/accountant.png") !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+  background-size: cover !important;
+  height: 400px !important;
+  width: 100% !important;
+}
+
+.team-bg-three {
+  background-image: url("../img//sale-manager.png") !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+  background-size: cover !important;
+  height: 400px !important;
+  width: 100% !important;
+}
+
+.team-card {
+  background: linear-gradient(0deg, rgba(81, 2, 9, 0.70) 0%, rgba(11, 0, 0, 0.60) 103.75%);
+}
+
 /* =================== our mission and vission start ============== */
 .mission {
-  background: -webkit-linear-gradient(
-    90deg,
-    rgb(46, 37, 37),
-    rgb(255, 255, 255)
-  );
+  background: -webkit-linear-gradient(90deg,
+      rgb(46, 37, 37),
+      rgb(255, 255, 255));
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
 }
+
 /* =================== our mission and vission end ============== */
