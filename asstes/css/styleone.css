@@ -1,0 +1,711 @@
+ 
+  @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+  @font-face {
+    font-family: 'poppins', sans-serif;
+    src: url(../fonts/poppins);
+}
+
+body {
+    /* background: #0f0705 !important; */
+    width: 100% !important;
+    height: 100vh !important;
+    font-family: 'poppins', sans-serif;
+    background: linear-gradient(to right, #0e1e0b, #200909, #131212) !important;
+
+    
+    /* background: linear-gradient(135deg, rgba(2, 126, 63, 0.812) -1.25%, rgba(1, 1, 1, 0.405) 104.62%); */
+
+
+}
+ 
+  *{
+      padding: 0px;
+      margin: 0px;
+      box-sizing: border-box;
+  }
+  /* landing page css start ------------------------- */
+  .wholeBg{
+      background:  #0B0000;
+  }
+  .welcome{
+      color:  #FFF;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+   
+  text-transform: capitalize;
+  }
+  .holiday{
+      background:  linear-gradient(180deg, #FFF 0%, rgba(255, 255, 255, 0.00) 118.12%, rgba(255, 255, 255, 0.00) 118.12%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+      font-family: Arial;
+  font-size: 70px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: capitalize;
+  }
+  .memories{
+      background:  linear-gradient(180deg, #FFF 0%, rgba(255, 255, 255, 0.00) 118.12%, rgba(255, 255, 255, 0.00) 118.12%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+      font-family: Lucida Calligraphy;
+  font-size: 35px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: normal;
+  }
+  .trust{
+      color:   #FFF;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: capitalize;
+  }
+  .discover{
+      color:  #FFF;
+      text-align: center;
+      font-family: Poppins;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+      text-transform: capitalize;
+  }
+  .getBtn{
+      color: #FCFFFE;
+  text-align: center;
+  font-family: Poppins;
+  border: 1px solid white;
+  border-radius: 28px;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: capitalize;
+  }
+  .getBtn:hover{
+      color: #FCFFFE;
+  text-align: center;
+  font-family: Poppins;
+  border: 1px solid white;
+  border-radius: 28px;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: capitalize;
+  }
+  .planeImg{
+      height: 250px;
+  }
+  .govtHeight{
+      height: 100px;
+  }
+  .whyHead{
+      background:  linear-gradient(180deg, #FFF 0%, rgba(255, 255, 255, 0.00) 118.12%, rgba(255, 255, 255, 0.00) 118.12%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+      font-family: Arial;
+  font-size: 70px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: capitalize;
+  }
+  .tickImg{
+      height: 40px;
+  }
+  .registered{
+      background:  linear-gradient(180deg, #FFF 0%, rgba(255, 255, 255, 0.00) 118.12%, rgba(255, 255, 255, 0.00) 118.12%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: Arial;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: capitalize;
+  }
+  .haveTravel{
+      color:   #FFF;
+  text-align: justify;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: capitalize;
+  }
+  .cardBorder{
+      border: 2px solid !important;
+      border-image: linear-gradient(to right, #6B000A, #027E3F) 10 !important;  
+      border-image-slice: 1 !important;
+      border-radius: 10px !important;
+      /* height: 250px; */
+  }
+  .test{
+      background:   linear-gradient(180deg, #FFF 0%, rgba(255, 255, 255, 0.00) 118.12%, rgba(255, 255, 255, 0.00) 118.12%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: Arial;
+  text-align: center !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 70px;
+  font-style: normal;
+  padding-block: 100px !important;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: capitalize;
+  }
+.posOne{
+    border: 1px solid red;
+    border-radius: 300px;
+    height: 600px;
+}
+.testPic{
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+}
+.publish{
+    color: var(--White, #FFF);
+text-align: center;
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+text-transform: capitalize;
+padding-inline: 200px;
+}
+.comaPic{
+    height: 100px !important;
+}
+
+
+/* service section css  */
+ 
+.about {
+    font-size: 4.5rem !important;
+    margin-top: 5rem !important;
+    background: -webkit-linear-gradient(
+      90deg,
+      rgb(46, 37, 37),
+      rgb(255, 255, 255)
+    );
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+  }
+  @media (max-width: 768px) {
+    .about {
+      font-size: 3rem !important;
+    }
+  }
+  .border {
+    display: grid;
+    place-items: center;
+    border: 2px solid !important;
+    
+    }
+  .full-withradiusService {
+    position: relative;
+    background: linear-gradient(to right, #070f06, #150606, #000000) !important;
+  
+    background-clip: padding-box;
+  
+    border: solid 2px transparent !important;
+    border-radius: 20px !important;
+    &:before {
+      content: "";
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      z-index: -1;
+      margin: -8px;
+      border-radius: inherit;
+      background: linear-gradient(to left, rgb(60, 117, 0), rgb(98, 3, 3));
+    }
+  }
+  
+  .card-button{
+    border-radius: 25px;
+  border: 1px solid  #FFF;
+  background: linear-gradient(135deg, rgba(2, 126, 63, 0.40) -1.25%, rgba(16, 19, 35, 0.00) 104.62%);
+  /* padding-block: 5px !important; */
+  }
+/* service section css  */
+
+
+/* trip section css start  */
+ 
+.trip{
+    background: linear-gradient(to right, #060d05, #150606, #000000) !important;
+}
+.border {
+  display: grid;
+  place-items: center;
+  border: 5px solid !important;
+}
+
+.full-withrad {
+  position: relative;
+  background: linear-gradient(to right, #070f06, #150606, #000000) !important;
+
+  background-clip: padding-box;
+
+  border: solid 5px transparent !important;
+  border-radius: 1rem;
+
+  &:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    margin: -8px;
+    border-radius: inherit;
+    background: linear-gradient(to left, rgb(60, 117, 0), rgb(98, 3, 3));
+  }
+}
+.trip-btn {
+  border-radius: 90px;
+  background: #6b000a !important;
+}
+.mission {
+    background: -webkit-linear-gradient(
+      90deg,
+      rgb(46, 37, 37),
+      rgb(255, 255, 255)
+    );
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+  }
+
+/* trip section css end  */
+
+/* achivement section css  */
+ 
+.borderOne {
+    display: grid;
+    place-items: center;
+    border: 2px solid !important;
+    box-shadow: 30px 30px 85px 0px rgba(14, 146, 80, 0.25), -20px -20px 85px 0px rgba(22, 150, 86, 0.25);
+  }
+
+  .about {
+    font-size: 4.5rem !important;
+    margin-top: 5rem !important;
+    background: -webkit-linear-gradient(
+      90deg,
+      rgb(46, 37, 37),
+      rgb(255, 255, 255)
+    );
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+  }
+   
+  @media (max-width: 768px) {
+    .about {
+      font-size: 3rem !important;
+    }
+  }
+  @media (max-width: 480px) {
+    .about {
+      font-size: 2rem !important;
+    }
+  }
+
+  .card-description{
+      background: -webkit-linear-gradient(
+        90deg,
+        rgb(46, 37, 37),
+        rgb(255, 255, 255)
+      );
+      -webkit-text-fill-color: transparent;
+      -webkit-background-clip: text;
+    
+    
+  }
+  .full-withradius {
+    position: relative;
+    background: linear-gradient(to right, #070f06, #150606, #000000) !important;
+  
+    background-clip: padding-box;
+  
+    border: solid 2px transparent !important;
+    border-radius: 50% !important;
+    &:before {
+      content: "";
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      z-index: -1;
+      margin: -8px;
+      border-radius: inherit;
+      background: linear-gradient(to left, rgb(60, 117, 0), rgb(98, 3, 3));
+    }
+  }
+  .achive-card{
+    width: 200px !important;
+    height: 200px !important;
+  }
+/* achivement section css  */
+
+
+  
+  
+  /* media query start ------------ */
+  @media screen and (max-width:768px) {
+      
+      .holiday{
+      
+      font-size: 50px;
+       
+      }
+      .whyHead {
+          font-size: 50px;
+      }
+  
+      .memories{
+          font-size: 22px;
+      }
+      .cardBorder{
+          border: 2px solid !important;
+          border-image: linear-gradient(to right, #6B000A, #027E3F) 10 !important;  
+          border-image-slice: 1 !important;
+          border-radius: 10px !important;
+          height: 260px !important;
+      }
+      .test{
+        font-size: 50px !important;
+        background:   linear-gradient(180deg, #FFF 0%, rgba(255, 255, 255, 0.00) 118.12%, rgba(255, 255, 255, 0.00) 118.12%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-family: Arial;
+      padding-block: 50px !important;
+        font-style: normal;
+        text-align: center !important;
+        font-weight: 700;
+        line-height: normal;
+        text-transform: capitalize;
+      }
+    }
+  
+    @media screen and (max-width:992px) {
+      .over{
+          overflow-x: auto !important;
+      }
+      .cardBorder{
+          border: 2px solid !important;
+          border-image: linear-gradient(to right, #6B000A, #027E3F) 10 !important;  
+          border-image-slice: 1 !important;
+          border-radius: 10px !important;
+          height: 340px;
+      }
+      .t{
+        position: static !important;
+        margin: 10px;
+      }
+      .comaPic{
+        display: none !important;
+      }
+      .midFlex{
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+        flex-direction: column !important;
+      }
+      .posOne{
+        border: none;
+        border-radius: 300px;
+        height: 50% !important;
+    }
+      .publish{
+      padding-inline: 0px !important;
+      }
+    }
+    
+@media screen and (max-width: 1200px){
+ 
+.t4 {
+    bottom: -90px;
+    left: 436px;
+}
+      
+    }
+    
+  /* media query end ------------ */
+  
+  /* landing page css end ------------------------- */ 
+
+
+/* contactpage css start --------------------------- */
+
+/* services page css start ----------- */
+.our{
+    color: silver;
+    font-family: Arial;
+}
+.back{
+    background: var(--Base, #0B0000);
+}
+
+.level{
+     
+   height: 220px !important;
+    border: 2px solid !important;
+    border-image: linear-gradient(to right, #6B000A, #027E3F) 10 !important;  
+    border-image-slice: 1 !important;
+    border-radius: 10px !important;  
+    
+}
+.whyHead{
+    background: var(--silver, linear-gradient(180deg, #FFF 0%, rgba(255, 255, 255, 0.00) 118.12%, rgba(255, 255, 255, 0.00) 118.12%));
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.registered{
+    background: var(--silver, linear-gradient(180deg, #FFF 0%, rgba(255, 255, 255, 0.00) 118.12%, rgba(255, 255, 255, 0.00) 118.12%));
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.cardBorder{
+    border: 2px solid !important;
+    border-image: linear-gradient(to right, #6B000A, #027E3F) 10 !important;  
+    border-image-slice: 1 !important;
+    border-radius: 10px !important; 
+    height: 245px !important;
+}
+.tickImg{
+    width: 60px;
+height: 60px;
+}
+.redicons {
+    width: 40px;
+    height: 40px;
+    background: #69020b;
+}
+.inp {
+    border: 1px solid var(--silver, #FFF);
+    background: linear-gradient(135deg, rgba(2, 126, 63, 0.40) -1.25%, rgba(16, 19, 35, 0.00) 104.62%);
+}
+.customborder{
+        border: 4px solid !important ;
+        border-image: linear-gradient( #5a1513 40%, #176635 80%) !important;
+        border-image-slice: 1 !important;
+        border-radius: 10px !important;
+    
+}
+.cantactMar{
+    padding-block: 150px !important;
+}
+
+ 
+/* services page css end ----------- */
+
+
+
+
+.topnavicon {
+    width: 25px;
+}
+
+.uppernav {
+    /* background-color: #0d0603 !important; */
+    background: linear-gradient(to right, #090303, #0a1407, #1a1818) !important;
+
+}
+.ach{
+    font-family: Arial;
+font-size: 70px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-transform: capitalize;
+    background: var(--silver, linear-gradient(180deg, #FFF 0%, rgba(255, 255, 255, 0.00) 118.12%, rgba(255, 255, 255, 0.00) 118.12%));
+background-clip: text;
+ 
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+.upppernav-a {
+    font-family: 'poppins', sans-serif;
+}
+
+.custom-nav {
+    /* background-color: #0f0705 !important; */
+    font-family: 'poppins', sans-serif;
+
+}
+
+
+.navactive::after,
+.navactive::before {
+    display: none;
+    /* Initially hide the pseudo-elements */
+}
+
+.navactive {
+    position: relative;
+}
+
+.navactive:hover::after {
+    display: block;
+    content: "";
+    position: absolute;
+    height: 6px;
+    width: 6px;
+    background: #6a010a;
+    left: 8px;
+    bottom: 5.5px;
+    border-radius: 50%;
+}
+
+.navactive:hover::before {
+    display: block;
+    content: "";
+    position: absolute;
+    height: 5px;
+    width: 40px;
+    background: #6a010a;
+    left: 16px;
+    bottom: 6px;
+    border-radius: 5px;
+
+}
+.navactive-adj:hover::before{
+    display: block;
+    content: "";
+    position: absolute;
+    height: 5px;
+    width: 53px;
+    background: #6a010a;
+    left: 16px;
+    bottom: 6px;
+    border-radius: 5px;
+
+
+}
+
+.qoutebtn {
+    background: #69020b !important;
+}
+
+/* Toggler icon color */
+.navbar-toggler{
+    background-color: #69020b !important; 
+    border-radius: .2em; 
+    border: 1.5px solid white !important;
+    
+}
+
+.main-h1 {
+    background: var(--silver, linear-gradient(180deg, #FFF 0%, rgba(255, 255, 255, 0.00) 118.12%, rgba(255, 255, 255, 0.00) 118.12%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 3rem;
+    font-family: 'poppins', sans-serif;
+}
+
+.p-a {
+    font-size: small;
+}
+
+.redicons {
+    width: 40px;
+    height: 40px;
+    background: #69020b;
+}
+
+ .navbar-scrolled {
+    /* background-color: #FFF !important; Change this to your desired color */
+    transition: background-color .5s ease-in-out;
+    background: linear-gradient(135deg, rgba(2, 126, 64, 0.933) -1.25%, rgba(16, 19, 35, 0.00) 104.62%);
+  }
+
+.ppp {
+    font-family: 'poppins', sans-serif;
+}
+
+.ppp2 {
+    background: linear-gradient(180deg, #FFF 0%, rgba(255, 255, 255, 0.50) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 2rem;
+}
+
+.inp {
+    border: 1px solid var(--silver, #FFF);
+    background: linear-gradient(135deg, rgba(2, 126, 63, 0.40) -1.25%, rgba(16, 19, 35, 0.00) 104.62%);
+}
+/* to give gradient to the input form border */
+
+.customborder {
+	font-size: 1.6rem;
+	border: 5px solid !important;
+}
+
+.full-withradius {
+	position: relative;
+    background: linear-gradient(to right, #070f06, #150606, #000000) !important;
+
+	background-clip: padding-box;
+
+	border: solid 8px transparent;
+	border-radius: 0.8rem;
+
+	&:before {
+		content: "";
+		position: absolute;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		z-index: -1;
+		margin: -8px; 
+		border-radius: inherit;
+		background: linear-gradient(to bottom, #620b0f 40%, #027E3F);
+	}
+}
+
+
+/* ************media queries************ */
+/* ************************************* */
+@media(max-width:992px){
+    .navbar-scrolled {
+        /* background-color: #FFF !important; Change this to your desired color */
+        transition: background-color .5s ease-in-out;
+        background:#027E3F;
+    }
+
+  }
+
+
+/* contact page css end ---------------------- */

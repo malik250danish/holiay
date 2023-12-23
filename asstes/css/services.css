@@ -1,0 +1,56 @@
+.our{
+    color: silver;
+    font-family: Arial;
+}
+.back{
+    background: var(--Base, #0B0000);
+}
+
+.level{
+     
+   height: 220px !important;
+    border: 2px solid !important;
+    border-image: linear-gradient(to right, #6B000A, #027E3F) 10 !important;  
+    border-image-slice: 1 !important;
+    border-radius: 10px !important;  
+    
+}
+.whyHead{
+    background: var(--silver, linear-gradient(180deg, #FFF 0%, rgba(255, 255, 255, 0.00) 118.12%, rgba(255, 255, 255, 0.00) 118.12%));
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.registered{
+    background: var(--silver, linear-gradient(180deg, #FFF 0%, rgba(255, 255, 255, 0.00) 118.12%, rgba(255, 255, 255, 0.00) 118.12%));
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.cardBorder{
+    border: 2px solid !important;
+    border-image: linear-gradient(to right, #6B000A, #027E3F) 10 !important;  
+    border-image-slice: 1 !important;
+    border-radius: 10px !important; 
+    height: 245px !important;
+}
+.tickImg{
+    width: 60px;
+height: 60px;
+}
+.redicons {
+    width: 40px;
+    height: 40px;
+    background: #69020b;
+}
+.inp {
+    border: 1px solid var(--silver, #FFF);
+    background: linear-gradient(135deg, rgba(2, 126, 63, 0.40) -1.25%, rgba(16, 19, 35, 0.00) 104.62%);
+}
+.customborder{
+        border: 4px solid !important ;
+        border-image: linear-gradient( #5a1513 40%, #176635 80%) !important;
+        border-image-slice: 1 !important;
+        border-radius: 10px !important;
+    
+}
